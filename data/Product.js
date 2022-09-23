@@ -1,0 +1,135 @@
+const Product= [
+    {
+        id: 1,
+        name: "Sepatu Nike",
+        category: "Sepatu",
+        price: "Rp. 200.000",
+        description: "Sepatu Nike terbaru",
+        image: "https://images.unsplash.com/photo-1543508282-6319a3e2621f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1915&q=80",
+        countInStock: 10,
+        rating: 4.5,
+        freeShip:"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Ftokopedia%2Fstatus%2F1385511977921900549&psig=AOvVaw1avA6iyvyTAw6LqNEpkf1w&ust=1663925454962000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNjVodGLqPoCFQAAAAAdAAAAABAD",
+        numReviews: 12,
+        seller: "agun"
+    },
+    {
+        id: 2,
+        name: "Sepatu Nike",
+        category: "Sepatu",
+        price: "Rp. 200.000",
+        description: "Sepatu Nike terbaru",
+        image: "https://images.unsplash.com/photo-1543508282-6319a3e2621f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1915&q=80",
+        countInStock: 10,
+        rating: 4.5,
+        freeShip:"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Ftokopedia%2Fstatus%2F1385511977921900549&psig=AOvVaw1avA6iyvyTAw6LqNEpkf1w&ust=1663925454962000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNjVodGLqPoCFQAAAAAdAAAAABAD",
+        numReviews: 12,
+        seller: "agun"
+    },
+    {
+        id: 3,
+        name: "Sepatu Nike",
+        category: "Sepatu",
+        price: "Rp. 200.000",
+        description: "Sepatu Nike terbaru",
+        image: "https://images.unsplash.com/photo-1543508282-6319a3e2621f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1915&q=80",
+        countInStock: 10,
+        rating: 4.5,
+        freeShip:"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Ftokopedia%2Fstatus%2F1385511977921900549&psig=AOvVaw1avA6iyvyTAw6LqNEpkf1w&ust=1663925454962000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNjVodGLqPoCFQAAAAAdAAAAABAD",
+        numReviews: 12,
+        seller: "agun"
+    },
+    {
+        id: 4,
+        name: "Sepatu Nike",
+        category: "Sepatu",
+        price: "Rp. 200.000",
+        description: "Sepatu Nike terbaru",
+        image: "https://images.unsplash.com/photo-1543508282-6319a3e2621f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1915&q=80",
+        countInStock: 10,
+        rating: 4.5,
+        freeShip:"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Ftokopedia%2Fstatus%2F1385511977921900549&psig=AOvVaw1avA6iyvyTAw6LqNEpkf1w&ust=1663925454962000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNjVodGLqPoCFQAAAAAdAAAAABAD",
+        numReviews: 12,
+        seller: "agun"
+    },
+    {
+        id: 5,
+        name: "Sepatu Nike",
+        category: "Sepatu",
+        price: "Rp. 200.000",
+        description: "Sepatu Nike terbaru",
+        image: "https://images.unsplash.com/photo-1543508282-6319a3e2621f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1915&q=80",
+        countInStock: 10,
+        rating: 4.5,
+        freeShip:"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Ftokopedia%2Fstatus%2F1385511977921900549&psig=AOvVaw1avA6iyvyTAw6LqNEpkf1w&ust=1663925454962000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNjVodGLqPoCFQAAAAAdAAAAABAD",
+        numReviews: 12,
+        seller: "agun"
+    },
+    {
+        id: 6,
+        name: "Sepatu Nike",
+        category: "Sepatu",
+        price: "Rp. 200.000",
+        description: "Sepatu Nike terbaru",
+        image: "https://images.unsplash.com/photo-1543508282-6319a3e2621f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1915&q=80",
+        countInStock: 10,
+        rating: 4.5,
+        freeShip:"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Ftokopedia%2Fstatus%2F1385511977921900549&psig=AOvVaw1avA6iyvyTAw6LqNEpkf1w&ust=1663925454962000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNjVodGLqPoCFQAAAAAdAAAAABAD",
+        numReviews: 12,
+        seller: "agun"
+    },
+    {
+        id: 7,
+        name: "Sepatu Nike",
+        category: "Sepatu",
+        price: "Rp. 200.000",
+        description: "Sepatu Nike terbaru",
+        image: "https://images.unsplash.com/photo-1543508282-6319a3e2621f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1915&q=80",
+        countInStock: 10,
+        rating: 4.5,
+        freeShip:"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Ftokopedia%2Fstatus%2F1385511977921900549&psig=AOvVaw1avA6iyvyTAw6LqNEpkf1w&ust=1663925454962000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNjVodGLqPoCFQAAAAAdAAAAABAD",
+        numReviews: 12,
+        seller: "agun"
+    },
+    {
+        id: 8,
+        name: "Sepatu Nike",
+        category: "Sepatu",
+        price: "Rp. 200.000",
+        description: "Sepatu Nike terbaru",
+        image: "https://images.unsplash.com/photo-1543508282-6319a3e2621f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1915&q=80",
+        countInStock: 10,
+        rating: 4.5,
+        freeShip:"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Ftokopedia%2Fstatus%2F1385511977921900549&psig=AOvVaw1avA6iyvyTAw6LqNEpkf1w&ust=1663925454962000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNjVodGLqPoCFQAAAAAdAAAAABAD",
+        numReviews: 12,
+        seller: "agun"
+    },
+    {
+        id: 9,
+        name: "Sepatu Nike",
+        category: "Sepatu",
+        price: "Rp. 200.000",
+        description: "Sepatu Nike terbaru",
+        image: "https://images.unsplash.com/photo-1543508282-6319a3e2621f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1915&q=80",
+        countInStock: 10,
+        rating: 4.5,
+        freeShip:"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Ftokopedia%2Fstatus%2F1385511977921900549&psig=AOvVaw1avA6iyvyTAw6LqNEpkf1w&ust=1663925454962000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNjVodGLqPoCFQAAAAAdAAAAABAD",
+        numReviews: 12,
+        seller: "agun"
+
+    },
+    {
+        id: 9,
+        name: "Sepatu Nike",
+        category: "Sepatu",
+        price: "Rp. 200.000",
+        description: "Sepatu Nike terbaru",
+        image: "https://images.unsplash.com/photo-1543508282-6319a3e2621f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1915&q=80",
+        countInStock: 10,
+        rating: 4.5,
+        freeShip:"https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Ftokopedia%2Fstatus%2F1385511977921900549&psig=AOvVaw1avA6iyvyTAw6LqNEpkf1w&ust=1663925454962000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNjVodGLqPoCFQAAAAAdAAAAABAD",
+        numReviews: 12,
+        seller: "agun"
+    }
+]
+
+export default Product
